@@ -1,0 +1,14 @@
+{
+  "name": "tiddlywiki",
+  "version": "1.0.0",
+  "description": "A tiddlywiki that runs on node",
+  "scripts": {
+    "start": "npx tiddlywiki wiki --listen port=8000 host=0.0.0.0",
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tiddlywiki": "^5.1.19"
+  }
+}
